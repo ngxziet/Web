@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 >ĐIỀU KHIỂN THIẾT BỊ</h1>
+  <h4 >nhiệt độ hiện tại: <span id="temp">23</span></h4>
+  <h4> độ ẩm hiện tại: <span id="hum">50</span></h4>
+  <div class="device">
+    <div class="container" id="tv">
+      <div class="mota">
+        <h2>SMART TV</h2>
+
+        <label class="switch">
+            <input type="checkbox" id="tvSwitch">
+            <span class="slider round"></span>
+        </label>
+
+        <p id="tvstatus">Trạng thái: Tắt</p>
+      </div>
+        <img id="tvImage" src="tv_off.png" alt="SMART TV">
+      
+    </div>
+
+
+
+    <div class="container" id="AC">
+      <div class="mota">
+        <h2>SMART AC</h2>
+
+        <label class="switch">
+            <input type="checkbox" id="ACSwitch">
+            <span class="slider round"></span>
+        </label>
+
+        <p id="ACstatus">Trạng thái: Tắt</p>
+      </div>
+        <img id="ACImage" src="ac_off.png" alt="AC">
+      
+    </div>
+
+
+
+    <div class="container" id="maygiat">
+      <div class="mota">
+        <h2>SMART WASHING MACHINE</h2>
+
+        <label class="switch">
+            <input type="checkbox" id="maygiatSwitch">
+            <span class="slider round"></span>
+        </label>
+
+        <p id="maygiatstatus">Trạng thái: Tắt</p>
+      </div>
+        <img id="maygiatImage" src="maygiat_off.png" alt="maygiat">
+      
+    </div>
+
+
+
+    <div class="container" id="tulanh">
+      <div class="mota">
+        <h2>SMART REFRIGERATOR</h2>
+
+        <label class="switch">
+            <input type="checkbox" id="tulanhSwitch">
+            <span class="slider round"></span>
+        </label>
+
+        <p id="tulanhstatus">Trạng thái: Tắt</p>
+      </div>
+        <img id="tulanhImage" src="tulanh_off.png" alt="tulanh">
+      
+    </div>
+
+
+
+    <div class="container" id="light">
+      <div class="mota">
+        <h2>SMART LIGHT</h2>
+
+        <label class="switch">
+            <input type="checkbox" id="lightSwitch">
+            <span class="slider round"></span>
+        </label>
+
+        <p id="lightstatus">Trạng thái: Tắt</p>
+      </div>
+        <img id="lightImage" src="light_off.png" alt="light">
+      
+    </div>
+
+
+
+    <div class="container" id="bell">
+      <div class="mota">
+        <h2>SMART BELL</h2>
+
+        <label class="switch">
+            <input type="checkbox" id="bellSwitch">
+            <span class="slider round"></span>
+        </label>
+
+        <p id="bellstatus">Trạng thái: Tắt</p>
+      </div>
+        <img id="bellImage" src="bell_off.png" alt="SMART BELL">
+      
+    </div>
+   
+
+    
+    <!-- Import Firebase -->
+<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+
+<!-- Import script.js sau Firebase -->
+<script src="script.js"></script>
+
+  </div>
+</body>
+</html>
